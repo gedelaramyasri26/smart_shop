@@ -8,7 +8,8 @@ from flask import Flask, jsonify, render_template, request
 app = Flask(__name__)
 
 SERPAPI_URL = "https://serpapi.com/search.json"
-SERPAPI_KEY = os.getenv("SERPAPI_KEY", "").strip()
+SERPAPI_KEY = os.getenv("SERPAPI_KEY", "SERPAPI_KEY = os.getenv("SERPAPI_KEY", "cfe3538b9436ce397567de2095d38b6996b3e33ccbd44ed6fe045db780ff74bc").strip()
+").strip()
 GOOGLE_LOCATION = os.getenv("SHOP_LOCATION", "India")
 GOOGLE_COUNTRY = os.getenv("SHOP_GL", "in")
 GOOGLE_LANGUAGE = os.getenv("SHOP_HL", "en")
